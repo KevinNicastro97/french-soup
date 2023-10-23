@@ -1,0 +1,71 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+
+}
+body {
+  background-color: white;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.header {
+  height: 300px;
+  background-image: url("/french-soup/soup.jpg");
+  background-image: center;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.title {
+  text-align: center;
+  color: antiquewhite;
+  font-weight: 50;
+  padding-top: 130px;
+  font-size: 35px;
+  
+}
+
+.description, .ingredients, .directions{
+  padding: 50px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.description-p, p{
+  font-size: 16px;
+  font-weight: 100;
+  color:rgb(95, 95, 95);
+  line-height: 3px;
+}
+
+.description-img, .ingredients-img {
+  width: 300px;
+  padding-left: 70px;
+  justify-content: center;
+  align-items: center center;
+}
+hr {
+   width: 80%;
+}
+.ingredients-title, .directions-h2 {
+  font-size: 18px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+li {
+  font-size: 16px;
+  font-weight: 100;
+  color:rgb(95, 95, 95);
+  line-height: 20px;
+}
